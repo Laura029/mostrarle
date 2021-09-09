@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="style2.css">
+</head>
+<body>
+<div class="ct">Mojoji</div>
+<div class="bp" onclick="preci()"><center>enviar</center></div>
+<div class="cpe"></div>
+<div class="bpp" onclick="pedidos()"><center>enviar</center></div>
+<div class="bppp" id="im" onclick="menu()"></div>
+<div class="bpppp" id="ime" onclick="din()"></div>
+<div class="ct2">Menu</div>
+<div class="ct2" style="top: 12%; left: 68%;">Pedidos</div>
+<form>
+	<label class="l1">PRECIOS</label>
+	<input type="text" placeholder="Ingrese precio" class="i1" id="ip">
+	<label class="l2">CANTIDAD</label>
+	<input type="text" placeholder="Ingrese nombre" class="i2" id="ip2">
+	<label class="l3">PRODUCTO</label>
+	<input type="text" placeholder="Ingrese cantidad" class="i3" id="ip3">
+	<input type="text" placeholder="Ingrese dinero" class="i4" id="ip4">
+
+</form>
+<script>
+	v=[];
+	vc=["a","b","c","d"]
+	x=0;
+	suma=0;
+	a=0;
+	i=0;
+	dine=0;
+	function preci()
+	{
+		x=v.length;
+		v[x]=Number(ip.value);
+	}
+	function pedidos()
+	{
+		pr=ip2.value;
+		pp=Number(ip3.value);
+		if(pr=="a")
+		{
+			suma=(v[0]*pp)+suma;
+		}
+		if(pr=="b")
+		{
+			suma=(v[1]*pp)+suma;
+		}
+		if(pr=="c")
+		{
+			suma=(v[2]*pp)+suma;
+		}
+		if(pr=="d")
+		{
+			suma=(v[3]*pp)+suma;
+		}
+	}
+		
+	function menu()
+	{
+		 im.innerHTML="<br>"+vc[0]+" "+v[0]+"<br>"+vc[1]+" "+v[1]+"<br>"+vc[2]+" "+v[2]+"<br>"+vc[3]+" "+v[3];
+	}
+
+	function din()
+	{
+		dine=Number(ip4.value);
+		if(suma<dine)
+		{
+		total=dine-suma;
+		ime.innerHTML="Le sobra: "+total;
+		}
+		else
+		{
+		total=suma-dine;
+		ime.innerHTML="Le falta: "+total;
+		}
+	}
+</script>
+<form>
+</form>
+</body>
+</html>

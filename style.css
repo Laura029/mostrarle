@@ -1,0 +1,74 @@
+body{
+	background-image: url(fondo.jpg);
+}
+.ct
+{
+	position: absolute;
+	top: 10%;
+	left: 25%;
+	width: 10%;
+	height: 10%;
+	font-family: titulop1;
+	font-size: 120px;
+	-webkit-text-stroke: 2px white;
+	color: #FCC5FF;
+
+}
+.l1{
+	position: absolute;
+	top: 25%;
+	left: 5%;
+	width: 10%;
+	height: 10%;
+	font-family: titulop2;
+	font-size: 40px;
+	color: black;
+}
+.i1{
+	position: absolute;
+	top: 35%;
+	left: 5%;
+	width: 15%;
+	height: 5%;
+	background: white;
+	font-family: titulop3;
+	font-size: 40px;
+	color: black;
+}
+.cb{
+	position: absolute;
+	top: 65%;
+	left: 40%;
+	width: 15%;
+	height: 5%;
+	background: white;
+	border-style: double;
+	font-family: titulop1;
+	font-size: 25px;
+	animation-name: input;
+			animation-iteration-count: infinite;
+			animation-duration: 5s;
+}
+
+
+@font-face{
+	font-family: titulop1;
+	src: url(titulo1.otf);
+}
+@font-face{
+	font-family: titulop2;
+	src: url(titulo2.otf);
+}
+@font-face{
+	font-family: titulop3;
+	src: url(titulo3.ttf);
+}
+@keyframes input{
+	0%{ border-color: #FD1532; }
+	16%{ border-color: #FAED27; }
+	32%{ border-color: #55FF00; }
+	48%{ border-color: #00FFC5; }
+	64%{ border-color: #0036FF; }
+	80%{ border-color: #4D00FF; }
+	96%{ border-color: #F300FF; }
+}

@@ -1,0 +1,183 @@
+body{
+	background-image: url(fondo.jpg);
+}
+.ct
+{
+	position: absolute;
+	top: -1%;
+	left: 38%;
+	width: 10%;
+	height: 10%;
+	font-family: titulop1;
+	font-size: 120px;
+	-webkit-text-stroke: 2px white;
+	color: #FCC5FF;
+
+}
+.ct2
+{
+	position: absolute;
+	top: 50%;
+	left: 10%;
+	width: 10%;
+	height: 10%;
+	font-family: titulop1;
+	font-size: 80px;
+	-webkit-text-stroke: 2px white;
+	color: #dea4ff;
+
+}
+.ct22
+{
+	position: absolute;
+	top: 50%;
+	left: 10%;
+	width: 10%;
+	height: 10%;
+	font-family: titulop1;
+	font-size: 80px;
+	-webkit-text-stroke: 2px white;
+	color: #dea4ff;
+
+}
+.l1{
+	position: absolute;
+	top: 25%;
+	left: 5%;
+	width: 10%;
+	height: 10%;
+	font-family: titulop2;
+	font-size: 40px;
+	color: black;
+}
+.i1{
+	position: absolute;
+	top: 35%;
+	left: 5%;
+	width: 15%;
+	height: 5%;
+	background: white;
+	font-family: titulop3;
+	font-size: 40px;
+	color: black;
+}
+.bp{
+	position: absolute;
+	top: 45%;
+	left: 5%;
+	width: 15%;
+	height: 5%;
+	background: white;
+	border-style: double;
+	font-family: titulop1;
+	font-size: 25px;
+}
+.cpe{
+	position: absolute;
+	top: 25%;
+	left: 65%;
+	width: 25%;
+	height: 35%;
+	background: white;
+	border-style: double;
+}
+.l2{
+	position: absolute;
+	top: 40%;
+	left: 68%;
+	width: 10%;
+	height: 10%;
+	font-family: titulop2;
+	font-size: 40px;
+	color: black;
+}
+.i2{
+	position: absolute;
+	top: 35%;
+	left: 68%;
+	width: 15%;
+	height: 5%;
+	background: white;
+	font-family: titulop3;
+	font-size: 40px;
+	color: black;
+}
+.l3{
+	position: absolute;
+	top: 25%;
+	left: 68%;
+	width: 10%;
+	height: 10%;
+	font-family: titulop2;
+	font-size: 40px;
+	color: black;
+}
+.i3{
+	position: absolute;
+	top: 50%;
+	left: 68%;
+	width: 15%;
+	height: 5%;
+	background: white;
+	font-family: titulop3;
+	font-size: 40px;
+	color: black;
+}
+.i4{
+	position: absolute;
+	top: 73%;
+	left: 73%;
+	width: 15%;
+	height: 5%;
+	background: white;
+	font-family: titulop3;
+	font-size: 40px;
+	color: black;
+}
+.bpp{
+	position: absolute;
+	top: 65%;
+	left: 70%;
+	width: 15%;
+	height: 5%;
+	background: white;
+	border-style: double;
+	font-family: titulop1;
+	font-size:30px;
+}
+.bppp{
+	position: absolute;
+	top: 63%;
+	left: 7%;
+	width: 45%;
+	height: 45%;
+	background: white;
+	border-style: double;
+	color: black;
+	font-size: 50px;
+	font-family: titulop3;
+}
+.bpppp{
+	position: absolute;
+	top: 80%;
+	left: 65%;
+	width: 30%;
+	height: 30%;
+	background: white;
+	border-style: double;
+	color: black;
+	font-size: 50px;
+	font-family: titulop3;
+}
+@font-face{
+	font-family: titulop1;
+	src: url(titulo1.otf);
+}
+@font-face{
+	font-family: titulop2;
+	src: url(titulo2.otf);
+}
+@font-face{
+	font-family: titulop3;
+	src: url(titulo3.ttf);
+}
